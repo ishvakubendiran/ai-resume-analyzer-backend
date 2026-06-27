@@ -1,0 +1,12 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/resume_analyzer_db
+spring.datasource.username=root
+spring.datasource.password=YOUR_DB_PASSWORD
+app.jwt.secret=YOUR_JWT_SECRET
+app.jwt.expiration=86400000
+groq.api.key=YOUR_GROQ_API_KEY
+server.port=8080
+spring.security.user.name=disable
+spring.security.user.password=disable
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
